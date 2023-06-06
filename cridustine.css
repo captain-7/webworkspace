@@ -1,0 +1,39 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/13/58/7f/13587ffd4d987e50f9763651c3651241.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(1px);
+    background-attachment: fixed;
+    display: grid;
+    margin: 0;
+    justify-content: center;
+    /* height: 100%; */
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #asyl_player {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        /* padding-top: 56.25%; */
+        /* position: relative; */
+    }
+
+    #asyl_player video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}

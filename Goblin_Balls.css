@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'who asks satan';
+    letter-spacing: 1rem;
+}
+
+@font-face {
+    font-family: 'Who asks Satan';
+    src: url('Resources/who asks satan.ttf') format('truetype');
+}
+
+body {
+    /* background-image: url('https://giffiles.alphacoders.com/209/209037.gif'); */
+    background-repeat: no-repeat;
+    display: flex;
+    overflow: hidden;
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+    margin: 200px auto;
+}
+
+#video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.glass {
+    /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)); */
+    /* -webkit-backdrop-filter: blur(10px); */
+    /* border-radius: 20px; */
+    /* border:1px solid rgba(255, 255, 255, 0.18); */
+    /* box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); */
+    text-align: center;
+    /* color: aqua; */
+    font-size: larger;
+    /* color: rgb(197, 18, 18); */
+    text-shadow: 0 0 5px #ff0f2f, 0 0 1px #ff0f2f, 0 0 20px #ff0f2f;
+    /* animation: colorful 6s infinite; */
+    animation: neon 0.3s ease infinite;
+}
+
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: 0 0 10px #ff0000a8, 0 0 20px #ff5100, 0 0 20px #ef8f00a8, 0 0 20px #ff0000a8, 0 0 2px #fe2828, 2px 2px 2px #9901ff;
+        color: #ffffff;
+    }
+    50% {
+        text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #1f141a9a;
+        color: #dd084f;
+    }
+}
+
+
+/* @keyframes colorful {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+} */
+
+h1 {
+    position: relative;
+    font-size: 30px;
+    top: 200px;
+}
+
+#ip-container {
+    position: relative;
+    font-size: 50px;
+    top: 40px;
+}
+
+#region-container {
+    position: relative;
+    font-size: 40px;
+    top: 115px;
+}
+
+@media (max-width: 800px) {
+    * {
+        letter-spacing: 0.4rem;
+    }
+
+    .container {
+        width: 800px;
+        height: 350px;
+        margin: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+        top: 190px;
+    }
+
+    #ip-container {
+        font-size: 45px;
+        top: 38px;
+    }
+
+    #region-container {
+        font-size: 38px;
+        top: 110px;
+    }
+}
