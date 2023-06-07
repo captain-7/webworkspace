@@ -52,7 +52,7 @@ body {
     0%,
     100% {
         text-shadow: 0 0 10px #ff0000a8, 0 0 20px #ff5100, 0 0 20px #ef8f00a8, 0 0 20px #ff0000a8, 0 0 2px #fe2828, 2px 2px 2px #9901ff;
-        color: #ffffff;
+        color: #ff0000;
     }
     50% {
         text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #1f141a9a;
