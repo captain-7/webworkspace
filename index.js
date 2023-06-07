@@ -21,7 +21,7 @@ buttons[0].addEventListener('click', () => {
   fullscreen();
 
   setTimeout(
-    () => { currTime >= 4 && currTime <= 20 ? flash_div.style.opacity = 1 : null; }, 1000);
+    () => { currTime >= 20 && currTime <= 4 ? flash_div.style.opacity = 1 : null; }, 1000);
 
   setTimeout(() => {
     window.location.href = 'Cridustine.html';;
